@@ -1,0 +1,11 @@
+.guide-index{margin:1.4rem 0;padding:1.2rem;border:1px solid var(--line,#566273);border-radius:14px}
+.guide-index h3,.guide-reading h3{margin:0 0 .8rem}
+.guide-index>div{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,12rem),1fr));gap:.55rem}
+.guide-link{font:inherit;color:inherit;background:transparent;border:1px solid var(--line,#687789);border-radius:9px;padding:.7em 1em;min-height:44px;text-align:left;cursor:pointer}
+.guide-link:hover,.guide-link:focus-visible{border-color:currentColor}
+.guide-reading{margin:.85rem 0;max-width:78ch;line-height:1.8;word-break:keep-all;overflow-wrap:anywhere}
+#main .guide-reading p{margin:.4rem 0!important;line-height:1.85!important}
+#main .guide-reading{padding:clamp(1rem,2.5vw,1.65rem)!important}
+.guide-index>div button{text-align:start;background:var(--panel);color:var(--ink)}
+.guide-footer{margin:2rem 0 1rem}
+#main .text-areas .panel p,#main .list-card p{line-height:1.8;overflow-wrap:anywhere}
