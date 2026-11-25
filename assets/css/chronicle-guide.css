@@ -9,3 +9,7 @@
 .guide-index>div button{text-align:start;background:var(--panel);color:var(--ink)}
 .guide-footer{margin:2rem 0 1rem}
 #main .text-areas .panel p,#main .list-card p{line-height:1.8;overflow-wrap:anywhere}
+.integrated-entry{margin:.5rem 0;max-width:85ch}
+.integrated-entry summary{cursor:pointer;font-weight:650;padding:.3rem}
+.appearance-line{display:block;margin:.3rem 0}
+.text-areas h5{margin:1rem 0 .4rem;font-size:.95rem;color:var(--gold)}
